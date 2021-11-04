@@ -1,0 +1,38 @@
+.filterContainer {
+  display: flex;
+  color: #fff;
+  text-transform: uppercase;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  border: 1px solid #1e1f21;
+  background-color: #1e1f21;
+  border-radius: 10px;
+}
+.filterForm {
+  display: flex;
+}
+.searchBtnContainer {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.filterFormGroup {
+  flex: 1 1;
+  margin-right: 10px;
+}
+.searchBtn {
+  background-color: #062b58 !important;
+  border-color: #062b58 !important;
+}
+.searchBtn:hover {
+  background-color: #0d3e7a !important;
+}
+@media only screen and (max-width: 1200px) {
+  .filterForm {
+    flex-direction: column;
+  }
+  .filterFormGroup {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}

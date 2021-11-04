@@ -1,0 +1,17 @@
+h2,
+h4 {
+  color: #fff;
+}
+
+.playerPagination {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #062b58;
+  padding: 10px;
+}
+.centerPagination {
+  display: flex;
+  justify-content: center;
+}
